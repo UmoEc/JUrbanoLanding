@@ -1,20 +1,20 @@
 body{
   font-family:  'Open Sans', sans-serif !important;
 }
-h1, h2, h3, h4{
-  text-transform: uppercase;
-}
 
-h1:after{
+content h1{
+    text-transform: uppercase;
+}
+content h1:after {
   background: #f0a400;
   content: "";
   display: block;
   height: 2px;
   position: absolute;
-  top: 15%;
+  top: 20%;
   width: 4%;
 }
-h1:after {
+content h1:after{
   left: 48%;
 }
 header{
@@ -27,14 +27,14 @@ header{
 .form-panel{
   font-family:  Linearicons-Free, 'Open Sans', sans-serif !important;
   background-color: #f0a400;
-  top: 0px;
-  padding: 40px;
+  margin-top: 0px;
+  padding: 40px 20px;
   text-align: center;
 }
 .form-panel h2{
     font-size: 26px;
     color: #fff;
-    padding: 30px;
+    padding: 5px;
 }
 .form-panel label{
     visibility: hidden;
@@ -60,3 +60,27 @@ header{
   color: #fff;
 }
 
+.ico-cont{
+  width: 165px;
+}
+
+content h4{
+  color: #64a835;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.dato-curso {
+
+}
+.dato-curso {
+  margin-top: 50px;
+  text-transform: none;
+  font-weight: bolder;
+  letter-spacing: 4px;
+  color: #fff;
+  padding: 0 40px; 
+  text-align: right;
+}
+.cabecera {
+  background-color: rgba(0, 0, 0, 0.3);  
+}
