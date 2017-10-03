@@ -36,7 +36,7 @@
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1">
 						<h2>REGISTRATE Y DESCARGÁ<br>EL PROGRAMA DEL CURSO</h2>
-					<form role="form">
+					<form role="form" onsubmit="return formulario()" action="php/enviarmails.php" method="post">
 						<div class="form-group">
 							<label for="nombre">
 								Nombre
@@ -116,29 +116,43 @@
 			</div>
 		</div>
 		</div>
-		</content>
-	</div>
-	<div class="row">
-		<div class="col-md-12">
-			<div class="row">
-				<div class="col-md-4">
-					<h3>
-						redes
-					</h3>
-				</div>
-				<div class="col-md-4">
-					<h3 class="text-center">
-						logo
-					</h3>
-				</div>
-				<div class="col-md-4">
-					<h3 class="text-right">
-						info
-					</h3>
+	</content>
+	<footer>
+		<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="row">
+					<div class="col-md-4 redes">
+						<h3>SOCIAL MEDIA</h3>
+						<div class="col-md-8">
+							<div class="rounded social"><a href="#">&#xf09a;</a></div>
+							<div class="rounded social"><a href="#">&#xf167;</a></div>
+							<div class="rounded social"><a href="#">&#xf231;</a></div>
+						</div>
+					</div>
+					<div class="col-md-4 logo">
+						<div class="col-md-12">
+							<img src="img/logo.png" class="rounded center-block">
+						</div>
+					</div>
+					<div class="col-md-4 info">
+						<p class="text-right">
+							Tel.: 094381298<br>
+							info@jardinurbano.com.uy<br>
+							Prof. Pablo Machado
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+		</div>
+	</footer>
+	<div class="pie">
+		<div class="container">
+			<div class="row">
+			</div>
+		</div>
+	</fdiv>
 </div>
 
     <!-- Optional JavaScript -->
