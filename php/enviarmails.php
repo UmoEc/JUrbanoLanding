@@ -1,14 +1,13 @@
 <?php
-    
 require("class.phpmailer.php");
   
     $mail = new PHPMailer();
     $mail->Host = "localhost";
-    $mail->From = "alguien@jardinurbano.com.uy";
+    $mail->From = "jardinurbano@montevideo.com.uy";
     $mail->FromName = "Registro curso Huerta Orgánica";
-    $mail->Subject = "Registro curso Huerta Orgánica";
-
-    $mail->AddAddress('pablo@umo.uy');
+    $mail->Subject = "Jardín Urbano | Curso Huerta Organica Nov17";
+    $mail->AddAddress('jardinurbano@montevideo.com.uy');
+    $mail->AddBCC("pablo@umo.uy");
 
     $mail->CharSet = 'UTF-8';
 
@@ -26,11 +25,10 @@ require("class.phpmailer.php");
     $mail->IsHTML(true);
     $mail->Send();
 
-
     $mail2 = new PHPMailer();
     $mail2->Host = "localhost";
-    $mail2->From = "alguien@jardinurbano.com.uy";
-    $mail2->FromName = "RRegistro curso Huerta Orgánica";
+    $mail2->From = "jardinurbano@montevideo.com.uy";
+    $mail2->FromName = "Registro curso Huerta Orgánica";
     $mail2->Subject = "Descargá el programa del curso: Huerta Orgñánica";
     $mail2->AddAddress($_POST['email']);
     $mail2->CharSet = 'UTF-8';
@@ -39,9 +37,8 @@ require("class.phpmailer.php");
    <html>
    <head>
    <meta charset='utf-8'>
-   <title>Documento sin título</title>
+   <title>Registro curso Huerta Orgánica</title>
    </head>
-
    <body>
    <table width='650' border='0' cellspacing='0' cellpadding='0'>
      <tr>
@@ -59,4 +56,6 @@ require("class.phpmailer.php");
     $mail2->Body = $body2;
     $mail2->IsHTML(true);
     $mail2->Send();
-pablo?>
+
+    header("Location: ../gracias.php");
+?>

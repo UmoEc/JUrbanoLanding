@@ -29,7 +29,7 @@
 						Taller de huerta<br>Orgánica
 					</h1>
 					<h2>
-						Inicio:<br>Octubre 2017
+						Inicio:<br>Noviembre 2017
 					</h2>
 				</div>
 				<div class="col-md-6 form-panel">
@@ -41,18 +41,18 @@
 							<label for="nombre">
 								Nombre
 							</label>
-							  <input type="text" class="form-control" id="nombre" name="nombre" placeholder="&#xe82a; nombre completo">
+							  <input type="text" class="form-control" id="nombre" name="nombre" placeholder="&#xe82a; nombre completo" required="true">
 						</div>
 						<div class="form-group">
 							<label for="Email1">
 								Email address
 							</label>
-							<input type="email" class="form-control" id="email" name="email" placeholder="&#xe818; email">
+							<input type="email" class="form-control" id="email" name="email" placeholder="&#xe818; email" required="true">
 						</div>
 							<label for="celular">
 								Email address
 							</label>
-							<input type="text" class="form-control" id="celular" name="celular" placeholder="&#xe83a; celular">
+							<input type="text" class="form-control" id="celular" name="celular" placeholder="&#xe83a; celular" required="true">
 						<button type="submit" class="btn btn-default">
 							Enviar
 						</button>
@@ -86,14 +86,14 @@
 					<div><img src="img/loveeco-icon.png" class="ico-cont"></div>
 					<h4>Placer</h4>
 					<p class="text-center">
-						de Sembrar, plantar y cuidar
+						De Sembrar, plantar y cuidar
 					</p>
 				</div>
 				<div class="col-md-2 text-center">
 					<div><img src="img/cajon-icon.png" class="ico-cont"></div>
 					<h4>Saber</h4>
 					<p class="text-center">
-						Aprovechar cualquier espacio para plantar áromaticas o verduras
+						Aprovechar cualquier espacio para plantar aromáticas o verduras
 					</p>
 				</div>
 				<div class="col-md-2 text-center">
