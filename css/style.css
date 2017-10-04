@@ -11,7 +11,7 @@ content h1:after {
   display: block;
   height: 2px;
   position: absolute;
-  top: 20%;
+  top: 25%;
   width: 4%;
 }
 content h1:after{
@@ -19,17 +19,23 @@ content h1:after{
 }
 header{
   background-color: #64a835;
-  background-image: url("../img/header-bkg.jpg");  
+  background: url("../img/header-bkg.jpg") fixed;  
   background-size: fixed;
 
 }
-
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 .form-panel{
   font-family:  Linearicons-Free, 'Open Sans', sans-serif !important;
-  background-color: #f0a400;
+  background: url(../img/form-pattern.png);
   margin-top: 0px;
-  padding: 40px 20px;
+  padding: 30px 20px;
   text-align: center;
+}
+.form-panel-patt{
+background-color: #f0a400;
 }
 .form-panel h2{
     font-size: 26px;
@@ -61,7 +67,10 @@ header{
 }
 
 .ico-cont{
-  width: 165px;
+  width: 100px;
+}
+.ico-cont-gracias{
+  width: 80px;
 }
 
 content h4{
@@ -69,8 +78,8 @@ content h4{
   font-weight: bold;
   letter-spacing: 2px;
 }
-.dato-curso {
-
+.dato-curso h1{
+  font-weight: bolder;
 }
 .dato-curso {
   margin-top: 50px;
@@ -80,6 +89,21 @@ content h4{
   color: #fff;
   padding: 0 40px; 
   text-align: right;
+}
+.dato-curso-gracias{
+  margin-top: 50px;
+  text-transform: none;
+  font-weight: bolder;
+  letter-spacing: 4px;
+  color: #fff;
+  padding: 0 40px; 
+  text-align: left;
+}
+.dato-curso-gracias h1{
+  font-weight: 700;
+}
+.dato-curso-gracias h2{
+  margin-top: 5px;
 }
 .cabecera {
   background-color: rgba(0, 0, 0, 0.3);  
@@ -101,7 +125,6 @@ footer {
 .social{
   text-align: center;
   display: inline-block;
-  border: 1px solid #009045;
   font-size: 3rem;
   padding: 5px;
   height: 50px;
@@ -113,7 +136,6 @@ footer {
   background-color: #fff;
   text-align: center;
   display: inline-block;
-  border: 1px solid #009045;
   font-size: 3rem;
   padding: 5px;
   height: 50px;
@@ -125,7 +147,6 @@ footer {
   background-color: #009045;
   text-align: center;
   display: inline-block;
-  border: 1px solid #009045;
   font-size: 3rem;
   padding: 5px;
   height: 50px;
@@ -133,8 +154,8 @@ footer {
   border-radius: 25px;
 }
 .pie {
-  background-color: 
-  height: 50px;
+  background-color: #009045;
+  height: 30px;
 }
 .logo {
   align-content: center;
@@ -142,5 +163,148 @@ footer {
 .logo img{
   width: 128px;
   margin-top: -64px;
-
 }
+footer a{
+  color: #fff;
+  text-decoration: none;
+}
+footer a:hover{
+  color: #fff;
+}
+footer a:visited{
+  color: #fff;
+}
+footer a:active{
+  color: #fff;
+}
+/*Estilos pagina gracias*/
+    .titulo h1, .info h2, .cabecera h1{
+      font-weight: 900;
+      font-size: 45px;
+      text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+      margin: 60px 0;
+      color: #fff;
+    }
+.info{
+      background: url(http://www.jardinurbano.com.uy/wp-content/themes/123garden_child_theme/templates/imgs/img_info.png) fixed;
+    }
+    .formato {
+      text-align: center;
+    }
+    .formato h2{
+      font-weight: 100;
+      font-size: 50px;
+      margin-top: 15px;
+      color: #009a06;
+    }
+    .formato h2 strong{
+      font-weight: 900;
+    }
+    .formato {
+      margin-bottom: 45px;
+    }
+    .table-curso {
+      text-align: center;
+      font-size: 14px;
+    }
+    .info-curso div.container{
+      margin-bottom: 60px
+    }
+    .table-curso td {
+      border: 1px solid #b3e8b3;
+      opacity: 0,5;
+    }
+    .table-curso tr.titulos{
+      background: #009a06;
+      color: #fff;
+      font-weight: 700;
+    }
+    .table-curso tr.titulos td {
+      border: 1px solid #009a06;
+    }
+    .table-responsive {
+      margin-top: 30px;
+    }
+        .barramvd {
+        background: #266728;
+        color: aliceblue;
+        font-size: 26px;
+        text-align: center;
+    }
+    .precios {
+      background-color: #009045; 
+      background: url(http://www.jardinurbano.com.uy/wp-content/themes/123garden_child_theme/templates/imgs/img_precios.png) fixed;
+    }
+      .precios h4 {
+      color: #fff;
+      font-size: 42px;
+      font-weight: 900;
+      padding: 15px 0 10px;
+    }
+    .medios {
+      width: 100%;
+      color: #fff;
+      font-size: 21px;
+    }
+    .medios tr {
+      height: 60px;
+    }
+    .medios span.cuotas{
+      font-weight: 100;
+    }
+    .medios span.contado, .medios span.cuotas-precio{
+      padding: 8px 12px;
+    }
+    .medios span.contado {
+      background: #009a06;
+    }
+    .medios span.cuotas-precio {
+      background: #ceae25;
+    }
+    .medios span.contado small, .medios span.cuotas-precio small {
+      font-size: 14px;
+      font-weight: 100;
+    }
+    .precios p {
+      color: #fff;
+      padding: 20px 0 8px;
+      font-weight: 800;
+    }
+    .precios p.descuento {
+      color: #fff;
+      font-size: 95px;
+      line-height: 42px;
+      display: inline-block;
+      text-align: center;
+    }
+    .precios p.descuento span {
+      font-size: 24px;
+      background: #009a06;
+      padding: 0 9px;
+    }
+    .precios p.info-desc{
+      display: inline-block;
+      color: #fff;
+      font-size: 24px;
+      max-width: 300px;
+      font-weight: 400;
+    }
+    .contacto {
+      text-align: center;
+    }
+    .contacto h2 {
+      font-weight: 900;
+      font-size: 50px;
+      margin-top: 50px;
+      color: #009a06;
+    }
+    .contacto p {
+      font-size: 24px;
+      margin: 30px 0 25px;
+      font-weight: 300;
+    }
+    span.verde {
+      color: #009a06;
+      font-size: 15px;
+      font-weight: 700;
+    }
