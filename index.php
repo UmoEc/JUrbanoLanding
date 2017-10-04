@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Jardín Urbano</title>
     <link href="css/reset.css" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -32,7 +32,8 @@
 						Inicio:<br>Noviembre 2017
 					</h2>
 				</div>
-				<div class="col-md-6 form-panel">
+				<div class="col-md-6 form-panel-patt">
+				<div class="col-md-12 form-panel">
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1">
 						<h2>REGISTRATE Y DESCARGÁ<br>EL PROGRAMA DEL CURSO</h2>
@@ -58,6 +59,7 @@
 						</button>
 					</form>
 					</div>
+				</div>
 				</div>
 				</div>
 			</div>
@@ -125,9 +127,9 @@
 					<div class="col-md-4 redes">
 						<h3>SOCIAL MEDIA</h3>
 						<div class="col-md-8">
-							<div class="rounded social"><a href="#">&#xf09a;</a></div>
-							<div class="rounded social"><a href="#">&#xf167;</a></div>
-							<div class="rounded social"><a href="#">&#xf231;</a></div>
+							<div class="rounded social"><a href="https://www.facebook.com/jardinurbano" target="blank">&#xf09a;</a></div>
+							<div class="rounded social"><a href="https://www.youtube.com/channel/UCWZHKmzm-BlaUlb3yrnQbJg" target="blank">&#xf167;</a></div>
+							<div class="rounded social"><a href="https://es.pinterest.com/jardinurbanomde/" target="blank">&#xf231;</a></div>
 						</div>
 					</div>
 					<div class="col-md-4 logo">
@@ -135,10 +137,10 @@
 							<img src="img/logo.png" class="rounded center-block">
 						</div>
 					</div>
-					<div class="col-md-4 info">
+					<div class="col-md-4 infopie">
 						<p class="text-right">
 							Tel.: 094381298<br>
-							info@jardinurbano.com.uy<br>
+							<a href="mailto:info@jardinurbano.com.uy?Subjet=Consulta%20web">info@jardinurbano.com.uy</a><br>
 							Prof. Pablo Machado
 						</p>
 					</div>
@@ -149,8 +151,7 @@
 	</footer>
 	<div class="pie">
 		<div class="container">
-			<div class="row">
-			</div>
+			<div class="row"></div>
 		</div>
 	</fdiv>
 </div>
