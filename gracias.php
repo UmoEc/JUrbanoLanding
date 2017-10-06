@@ -89,44 +89,44 @@
 			<div class="container">
 				<h2>Temario <strong>del taller</strong></h2>
 				<div class="puntos">
-					<div class="col-lg-2">
-						<img src="http://www.jardinurbano.com.uy/wp-content/themes/123garden_child_theme/templates/imgs/1-planificacion.png" class="img-responsive">
+					<div class="col-lg-2 text-center">
+						<img src="http://www.jardinurbano.com.uy/wp-content/themes/123garden_child_theme/templates/imgs/1-planificacion.png">
 						<p>Planificación de la huerta.</p>
 					</div>
-					<div class="col-lg-2">
-						<img src="http://www.jardinurbano.com.uy/wp-content/themes/123garden_child_theme/templates/imgs/2-macetas.png" class="img-responsive">
+					<div class="col-lg-2 text-center">
+						<img src="http://www.jardinurbano.com.uy/wp-content/themes/123garden_child_theme/templates/imgs/2-macetas.png">
 						<p>Contenedores y macetas.</p>
 					</div>
-					<div class="col-lg-2">
-						<img src="http://www.jardinurbano.com.uy/wp-content/themes/123garden_child_theme/templates/imgs/3-suelo.png" class="img-responsive">
+					<div class="col-lg-2 text-center">
+						<img src="http://www.jardinurbano.com.uy/wp-content/themes/123garden_child_theme/templates/imgs/3-suelo.png">
 						<p>Suelo y sustrato.</p>
 					</div>
-					<div class="col-lg-2">
-						<img src="http://www.jardinurbano.com.uy/wp-content/themes/123garden_child_theme/templates/imgs/4-cultivos.png" class="img-responsive">
+					<div class="col-lg-2 text-center">
+						<img src="http://www.jardinurbano.com.uy/wp-content/themes/123garden_child_theme/templates/imgs/4-cultivos.png">
 						<p>Cultivos de invierno y de verano.</p>
 					</div>
-					<div class="col-lg-2">
-						<img src="http://www.jardinurbano.com.uy/wp-content/themes/123garden_child_theme/templates/imgs/5-semillas.png" class="img-responsive">
+					<div class="col-lg-2 text-center">
+						<img src="http://www.jardinurbano.com.uy/wp-content/themes/123garden_child_theme/templates/imgs/5-semillas.png">
 						<p>Donde conseguir, las semillas, la tierra y demás insumos.</p>
 					</div>
-					<div class="col-lg-2">
-						<img src="http://www.jardinurbano.com.uy/wp-content/themes/123garden_child_theme/templates/imgs/6-otras-plantas.png" class="img-responsive">
+					<div class="col-lg-2 text-center">
+						<img src="http://www.jardinurbano.com.uy/wp-content/themes/123garden_child_theme/templates/imgs/6-otras-plantas.png">
 						<p>Asociación con aromáticas y otras plantas.</p>
 					</div>
-					<div class="col-lg-2 col-lg-offset-2">
-						<img src="http://www.jardinurbano.com.uy/wp-content/themes/123garden_child_theme/templates/imgs/7-calendario.png" class="img-responsive">
+					<div class="col-lg-2 col-lg-offset-2 text-center">
+						<img src="http://www.jardinurbano.com.uy/wp-content/themes/123garden_child_theme/templates/imgs/7-calendario.png">
 						<p>Manejo del calendario de siembra y cosecha.</p>
 					</div>
-					<div class="col-lg-2">
-						<img src="http://www.jardinurbano.com.uy/wp-content/themes/123garden_child_theme/templates/imgs/8-mantenimiento.png" class="img-responsive">
+					<div class="col-lg-2 text-center">
+						<img src="http://www.jardinurbano.com.uy/wp-content/themes/123garden_child_theme/templates/imgs/8-mantenimiento.png">
 						<p>Instalación y mantenimiento de la huerta.</p>
 					</div>
-					<div class="col-lg-2">
-						<img src="http://www.jardinurbano.com.uy/wp-content/themes/123garden_child_theme/templates/imgs/9-hortalizas.png" class="img-responsive">
+					<div class="col-lg-2 text-center">
+						<img src="http://www.jardinurbano.com.uy/wp-content/themes/123garden_child_theme/templates/imgs/9-hortalizas.png">
 						<p>Cosecha y conservación de algunas hortalizas</p>
 					</div>
-					<div class="col-lg-2">
-						<img src="http://www.jardinurbano.com.uy/wp-content/themes/123garden_child_theme/templates/imgs/10-sanidad.png" class="img-responsive">
+					<div class="col-lg-2 text-center">
+						<img src="http://www.jardinurbano.com.uy/wp-content/themes/123garden_child_theme/templates/imgs/10-sanidad.png">
 						<p>La sanidad de la huerta orgánica.</p>
 					</div>
 				</div>

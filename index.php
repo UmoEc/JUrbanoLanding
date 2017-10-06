@@ -92,7 +92,7 @@
 							<label for="celular">
 								Email address
 							</label>
-							<input type="text" class="form-control" id="celular" name="celular" placeholder="&#xe83a; celular" required="true">
+							<input type="text" class="form-control" id="celular" name="celular" placeholder="&#xe83a; celular">
 						<button type="submit" class="btn btn-default" onclick="ga('send', 'event', 'Boton', 'MásInfo', 'HuertaOrgánica ');">
 							Enviar
 						</button>
