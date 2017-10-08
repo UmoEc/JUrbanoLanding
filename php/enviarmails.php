@@ -65,15 +65,13 @@ require("class.phpmailer.php");
     $dbuser='jardinur_landmin';
     $dbuserpass='Umo EC2017';
 
-error_reporting(E_ALL);
-ini_set('log_errors', 'on');
     if (isset($_POST['nombre']) && !empty($_POST['nombre']) &&
         isset($_POST['email']) && !empty($_POST['email']))
      {
 
 
-      $db = new PDO('mysql:dbname='.$dbschema.';host='.$dbhost, $dbuser, $dbuserpass);
-      $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+      $db = new PDO('mysql:dbname='.$dbschema.';host='.$dbhost.';charset=UTF8', $dbuser, $dbuserpass);
+      //$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
       $stmt = $db->prepare("INSERT INTO leads (id, Nombre, Email, Celular) VALUES (null, :nombre, :email, :celular)");
       $stmt->execute(array(
           ':nombre' => $Nombre,
